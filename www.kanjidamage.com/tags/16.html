@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+
+<!-- Mirrored from www.kanjidamage.com/tags/16 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:38:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta content='text/html;charset=UTF-8' http-equiv='content-type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7003683092","applicationID":"21271","transactionName":"Jg5bQ0EKCA5UQk1CUwISGkRbChM=","queueTime":0,"applicationTime":24,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<title>
+written Japanese, Japanese useage, formal Japanese - NP
+|
+KANJIDAMAGE
+</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="CnwhbuMayGz9LeOjfYBdTjYWpbBPEl2Z3mDAkHwJxFw=" name="csrf-token" />
+<link href="../assets/application-bd822dcf08a88800b93ec563924bd26c.css" media="all" rel="stylesheet" type="text/css" />
+<script src="../assets/application-425928cbe6be55fe527562b4436651e3.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="../favicon.ico" />
+<meta property="fb:app_id" content="122407024560957"/>
+<meta content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'>
+
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12423647-1']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+          <script type='text/javascript'>
+            var mpq = [];
+            mpq.push(["init", "c9b49675ff5c8dd8c73e0b5c73987bfc"]);
+            (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+          </script>
+<script type='text/javascript'>try {mpq.push(["register", {}]);} catch(err) {}</script></head>
+<body>
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "../../connect.facebook.net/en_US/all.js#xfbml=1&appId=122407024560957";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class='navbar navbar-fixed-top navbar-inverse'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a href="../index.html" class="brand"><img alt="Kanjidamage" class="logo" src="../assets/kanjidamage-69b6c6692a0c83fe7f1b41590e6e5c1a.png" />
+KANJIDAMAGE
+</a><div class='nav-collapse'>
+<ul class='nav'>
+<li><a href="../introduction.html">Intro</a></li>
+<li><a href="../kanji_facts.html">Kanji facts</a></li>
+<li><a href="../howto.html">How to</a></li>
+<li><a href="../tags.html">Tags</a></li>
+<li><a href="../kanji.html">Kanji</a></li>
+<li><a href="../radicals.html">Radicals</a></li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Appendix
+</a>
+<ul class='dropdown-menu'>
+<li><a href="../appendix/onyomikeywords.html">Onyomi</a></li>
+<li><a href="../appendix/illpairs.html">Ill pairs</a></li>
+<li><a href="../appendix/dupes.html">Dupes</a></li>
+<li><a href="../articles.html">Articles</a></li>
+<li><a href="../appendix/longshortvowels.html">Long short vowels</a></li>
+</ul>
+</li>
+<li><a href="../synonyms.html">Synonyms</a></li>
+<li><a href="http://kanjidamage.fr.yuku.com/forums/2/kanjidamage-forums">Forum</a></li>
+</ul>
+<div class='pull-right'>
+<form accept-charset="UTF-8" action="http://www.kanjidamage.com/kanji/search" class="navbar-search pull-right" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input class="search-query" id="q" name="q" placeholder="Search" type="text" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+</div>
+<div class='container'><h1>NP</h1>
+<p> (newspaper word)</p>
+
+<p>All languages have a very formal version, even English: (“Your Honour, if it please the court to introduce the writ of habeas corpus?” “Indubitably, my good chap!”) But as usual, Japanese has to take a common linguistic phenomenon and bug it out until it’s totally incomprehensible to foreigners.</p>
+
+<p>So, in ADDITION to the formal Japanese (used only when talking to the Boss) , there’s a WHOLE ‘NOTHER SET OF WORDS which are used in very informal,  every-day settings: announcements on the loudspeakers of train stations, television news reports, newspapers, etc.</p>
+
+<p>Some of these words are the most common and useful in Japanese, and yet most people will never ever say them.</p>
+
+<p>These words are only HEARD or READ, but they’re not SAID.</p>
+
+<p>I call these words NEWSPAPER WORDS, although they might be better called ANNOUNCEMENT WORDS.</p>
+
+<p>A common noob mistake is when a foreigner (having just learned the words) says them out loud. The foreigner figured that since they describe common things like trains leaving the station, they must be useful. Ha! NOOOOB. To make matters even worse, most every NEWSPAPER WORD has a more casual equivalent that regular folks use, and you gotta learn those too!</p>
+
+<h2>Tagged items</h2>
+<ul>
+<li><a href="../kanji/124-dinner-table-%e5%8d%93.html">食卓</a></li>
+<li><a href="../kanji/239-kid-%e7%ab%a5.html">児童</a></li>
+<li><a href="../kanji/295-infer-%e6%8e%a8.html">推測</a></li>
+<li><a href="../kanji/334-refer-to-%e8%bf%b0.html">前述</a></li>
+<li><a href="../kanji/419-test-%e9%a8%93.html">試験</a></li>
+<li><a href="../kanji/671-region-%e5%9f%9f.html">領域</a></li>
+<li><a href="../kanji/768-depend-on-%e4%be%9d.html">依存</a></li>
+<li><a href="../kanji/778-wavelike-%e6%b5%aa.html">浪費</a></li>
+<li><a href="../kanji/806-mass-production-%e8%a3%bd.html">製造</a></li>
+<li><a href="../kanji/38-stay-for-the-night-%e6%b3%8a.html">宿泊</a></li>
+<li><a href="../kanji/827-sponsor-%e5%82%ac.html">主催</a></li>
+<li><a href="../kanji/896-expenses-%e8%b2%bb.html">消費者</a></li>
+<li><a href="../kanji/1086-eliminate-%e6%8e%92.html">排便</a></li>
+<li><a href="../kanji/1086-eliminate-%e6%8e%92.html">排泄</a></li>
+<li><a href="../kanji/1182-police-%e5%af%9f.html">警察</a></li>
+<li><a href="../kanji/1212-more-or-less-than-normal-%e9%80%b8.html">逸脱</a></li>
+<li><a href="../kanji/1436-oath-%e7%9b%9f.html">連盟</a></li>
+<li><a href="../kanji/807-inform-%e5%91%8a.html">報告</a></li>
+<li><a href="../kanji/1486-hamper-%e9%98%bb.html">阻害</a></li>
+<li><a href="../kanji/1510-naked-%e8%a3%b8.html">全裸</a></li>
+<li><a href="../kanji/1534-the-next-the-following-%e7%bf%8c.html">翌日</a></li>
+<li><a href="../kanji/1084-sin-%e7%bd%aa.html">謝罪</a></li>
+<li><a href="../kanji/394-comefuture-%e6%9d%a5.html">以来</a></li>
+<li><a href="../kanji/1733-disaster-%e7%81%bd.html">火災</a></li>
+<li><a href="../kanji/1747-reciprocal-%e4%ba%92.html">相互的</a></li>
+<li><a href="../kanji/4-total-%e4%ba%86.html">終了</a></li>
+<li><a href="../kanji/13-un-%e4%b8%8d.html">不足</a></li>
+<li><a href="../kanji/14-no-%e5%90%a6.html">否定</a></li>
+<li><a href="../kanji/21-compare-%e6%af%94.html">比較的</a></li>
+<li><a href="../kanji/43-bright-%e6%98%8e.html">不明</a></li>
+<li><a href="../kanji/52-streetlight-%e7%81%af.html">電灯</a></li>
+<li><a href="../kanji/86-formal-visit-%e8%a8%aa.html">訪問</a></li>
+<li><a href="../kanji/151-manager-%e5%ae%b0.html">主宰</a></li>
+<li><a href="../kanji/176-add-%e5%8a%a0.html">増加 </a></li>
+<li><a href="../kanji/259-government-office-%e7%bd%b2.html">署名</a></li>
+<li><a href="../kanji/379-sorrow-%e6%84%81.html">郷愁</a></li>
+<li><a href="../kanji/400-get-close-%e5%af%84.html">年寄り</a></li>
+<li><a href="../kanji/422-difficult-%e9%9b%a3.html">困難</a></li>
+<li><a href="../kanji/456-enjoy-a-drink-and-a-smoke-%e5%96%ab.html">喫煙</a></li>
+<li><a href="../kanji/478-share-stock-%e6%a0%aa.html">株式</a></li>
+<li><a href="../kanji/205-childhood-%e5%b9%bc.html">幼児</a></li>
+<li><a href="../kanji/606-instruct-%e6%8e%88.html">教授</a></li>
+<li><a href="../kanji/627-level-%e7%b4%9a.html">階級</a></li>
+<li><a href="../kanji/630-perpetrate-%e4%be%b5.html">侵攻</a></li>
+<li><a href="../kanji/630-perpetrate-%e4%be%b5.html">侵入</a></li>
+<li><a href="../kanji/818-contract-shrink-%e7%b8%ae.html">縮小</a></li>
+<li><a href="../kanji/875-wear-arrive-%e7%9d%80.html">到着</a></li>
+<li><a href="../kanji/940-board-%e6%90%ad.html">搭乗</a></li>
+<li><a href="../kanji/972-make-a-case-for-%e8%ab%96.html">討論</a></li>
+<li><a href="../kanji/1024-pull-out-hand-over-%e5%87%ba.html">出発</a></li>
+<li><a href="../kanji/1055-recommend-%e5%8b%a7.html">勧告</a></li>
+<li><a href="../kanji/1057-make-certain-%e7%a2%ba.html">確実</a></li>
+<li><a href="../kanji/611-customer-%e5%ae%a2.html">乗客</a></li>
+<li><a href="../kanji/21-compare-%e6%af%94.html">比較</a></li>
+<li><a href="../kanji/1095-request-uncommon-%e5%b8%8c.html">希少</a></li>
+<li><a href="../kanji/1110-assist-%e6%8f%b4.html">支援</a></li>
+<li><a href="../kanji/1177-lips-%e5%94%87.html">陰唇</a></li>
+<li><a href="../kanji/1229-go-%e8%a1%8c.html">行き</a></li>
+<li><a href="../kanji/1249-shady-%e9%99%b0.html">陰部</a></li>
+<li><a href="../kanji/284-proof-%e8%a8%bc.html">証拠</a></li>
+<li><a href="../kanji/768-depend-on-%e4%be%9d.html">依頼人</a></li>
+<li><a href="../kanji/1345-pattern-%e6%9f%84.html">人柄</a></li>
+<li><a href="../kanji/1370-search-%e6%8d%9c.html">捜査</a></li>
+<li><a href="../kanji/581-important-%e8%a6%81.html">需要</a></li>
+<li><a href="../kanji/608-been-a-long-time-%e4%b9%85.html">耐久性</a></li>
+<li><a href="../kanji/1423-put-in-custody-%e6%8b%98.html">拘束</a></li>
+<li><a href="../kanji/1436-oath-%e7%9b%9f.html">同盟</a></li>
+<li><a href="../kanji/462-damage-%e5%ae%b3.html">被害者</a></li>
+<li><a href="../kanji/1534-the-next-the-following-%e7%bf%8c.html">翌月</a></li>
+<li><a href="../kanji/1534-the-next-the-following-%e7%bf%8c.html">翌朝</a></li>
+<li><a href="../kanji/175-strong-%e5%8a%9b.html">暴力団</a></li>
+<li><a href="../kanji/192-small-size-%e5%b0%8f.html">小便</a></li>
+<li><a href="../kanji/1047-doctor-%e5%8c%bb.html">医師</a></li>
+<li><a href="../kanji/1689-epidermis-%e8%86%9a.html">皮膚</a></li>
+<li><a href="../kanji/1741-fake-%e5%81%bd.html">偽装</a></li>
+<li><a href="../kanji/1117-admit-defeat-visit-%e5%8f%82.html">参拝</a></li>
+<li><a href="../kanji/1229-go-%e8%a1%8c.html">行為</a></li>
+<li><a href="../kanji/271-stop-%e6%ad%a2.html">中止</a></li>
+<li><a href="../kanji/82-bring-to-a-halt-%e5%81%9c.html">停止</a></li>
+<li><a href="../kanji/135-run-parallel-to-%e6%b2%bf.html">そ＊って</a></li>
+<li><a href="../kanji/137-public-%e5%85%ac.html">おおやけ</a></li>
+<li><a href="../kanji/179-make-an-effort-%e5%8a%aa.html">つと*める</a></li>
+<li><a href="../kanji/224-utilize-%e7%94%a8.html">もち＊いる</a></li>
+<li><a href="../kanji/343-take-measures-%e7%ad%96.html">さく</a></li>
+<li><a href="../kanji/581-important-%e8%a6%81.html">よう*する</a></li>
+<li><a href="../kanji/588-husband-%e5%a4%ab.html">おっと</a></li>
+<li><a href="../kanji/630-perpetrate-%e4%be%b5.html">おか*す</a></li>
+<li><a href="../kanji/661-attempt-to-do-%e8%a9%a6.html">こころ*みる</a></li>
+<li><a href="../kanji/1006-esteem-%e5%b0%8a.html">とうと*い</a></li>
+<li><a href="../kanji/1102-bribe-provide-capital-to-%e8%b3%84.html">まかな*う</a></li>
+<li><a href="../kanji/1117-admit-defeat-visit-%e5%8f%82.html">まい＊る</a></li>
+<li><a href="../kanji/1339-fast-%e9%80%9f.html">すみ＊やか</a></li>
+<li><a href="../kanji/1447-raise-cite-mention-%e6%8c%99.html">あ＊げる</a></li>
+<li><a href="../kanji/1486-hamper-%e9%98%bb.html">はば＊む</a></li>
+<li><a href="../kanji/1530-admonish-commandment-%e6%88%92.html">いまし*める</a></li>
+<li><a href="../kanji/1591-all-over-again-%e6%9b%b4.html">さら</a></li>
+<li><a href="../kanji/1723-to-be-told-consent-%e6%89%bf.html">うけたまわ*る</a></li>
+<li><a href="../kanji/1768-gorgeous-%e9%ba%97.html">うるわ＊しい</a></li>
+<li><a href="../kanji/476-family-name-%e5%a7%93.html">せい</a></li>
+<li><a href="../kanji/4-total-%e4%ba%86.html">完了</a></li>
+<li><a href="../kanji/1577-different-and-therefore-wrong-%e9%81%95.html">相違</a></li>
+<li><a href="../kanji/1468-disregard-%e5%8d%b4.html">却下</a></li>
+<li><a href="../kanji/173-hide-endure-%e5%bf%8d.html">忍耐</a></li>
+<li><a href="../kanji/216-to-supply-%e7%b4%8d.html">納入</a></li>
+<li><a href="../kanji/8-rape-%e5%a7%a6.html">法定強姦</a></li>
+<li><a href="../kanji/25-insect-%e6%98%86.html">昆虫</a></li>
+<li><a href="../kanji/85-10000-%e4%b8%87.html">万が一</a></li>
+<li><a href="../kanji/60-putgo-in-%e5%85%a5.html">入館料</a></li>
+<li><a href="../kanji/353-prohibition-%e7%a6%81.html">立ち入り禁止</a></li>
+<li><a href="../kanji/934-introduce-intervene-%e4%bb%8b.html">介入</a></li>
+<li><a href="../kanji/108-without-reason-or-permission-%e5%a6%84.html">被害妄想</a></li>
+<li><a href="../kanji/1151-ugly-%e9%86%9c.html">醜悪</a></li>
+<li><a href="../kanji/130-announce-%e5%ae%a3.html">宣言</a></li>
+<li><a href="../kanji/1587-diagram-map-%e5%9b%b3.html">意図</a></li>
+<li><a href="../kanji/178-threaten-%e8%84%85.html">脅迫 </a></li>
+<li><a href="../kanji/190-accompany-%e4%bc%b4.html">同伴</a></li>
+<li><a href="../kanji/191-call-to-someone-%e5%91%bc.html">呼吸</a></li>
+<li><a href="../kanji/194-inferiority-%e5%8a%a3.html">劣等感</a></li>
+<li><a href="../kanji/265-upkeep-%e7%b6%ad.html">維持費</a></li>
+<li><a href="../kanji/461-stop-at-%e9%a7%90.html">駐車禁止</a></li>
+<li><a href="../kanji/1187-wane-%e5%bb%83.html">廃止</a></li>
+<li><a href="../kanji/273-consent-%e8%82%af.html">肯定</a></li>
+<li><a href="../kanji/295-infer-%e6%8e%a8.html">推定</a></li>
+<li><a href="../kanji/296-depict-%e6%8f%8f.html">描写</a></li>
+<li><a href="../kanji/189-art-or-literary-criticism-%e8%a9%95.html">批評</a></li>
+<li><a href="../kanji/312-photo-shoot-%e6%92%ae.html">撮影禁止</a></li>
+<li><a href="../kanji/343-take-measures-%e7%ad%96.html">策</a></li>
+<li><a href="../kanji/379-sorrow-%e6%84%81.html">哀愁</a></li>
+<li><a href="../kanji/350-partner-%e7%9b%b8.html">首相</a></li>
+<li><a href="../kanji/480-second-rank-girl-%e4%b9%99.html">おと</a></li>
+<li><a href="../kanji/1238-obey-%e5%be%93.html">従業員</a></li>
+<li><a href="../kanji/580-value-%e4%be%a1.html">物価</a></li>
+<li><a href="../kanji/667-clique-%e9%96%a5.html">派閥</a></li>
+<li><a href="../kanji/677-employment-%e8%81%b7.html">職業</a></li>
+<li><a href="../kanji/690-to-confront-%e8%87%a8.html">臨時  </a></li>
+<li><a href="../kanji/736-childbirth-production-of-things-%e7%94%a3.html">う*む</a></li>
+<li><a href="../kanji/779-eyeball-%e7%9c%bc.html">め</a></li>
+<li><a href="../kanji/779-eyeball-%e7%9c%bc.html">眼</a></li>
+<li><a href="../kanji/920-scheme-%e4%bc%81.html">企画</a></li>
+<li><a href="../kanji/189-art-or-literary-criticism-%e8%a9%95.html">評論</a></li>
+<li><a href="../kanji/1037-chestbreast-%e8%83%b8.html">度胸</a></li>
+<li><a href="../kanji/1074-sleep-%e7%9d%a1.html">睡眠</a></li>
+<li><a href="../kanji/354-fruit-result-%e6%9e%9c.html">果物</a></li>
+<li><a href="../kanji/1100-exist-%e6%9c%89.html">有益</a></li>
+<li><a href="../kanji/1187-wane-%e5%bb%83.html">廃棄</a></li>
+<li><a href="../kanji/1423-put-in-custody-%e6%8b%98.html">拘留</a></li>
+<li><a href="../kanji/1159-mr-speculum-radical-%e6%b0%8f.html">氏名</a></li>
+<li><a href="../kanji/1291-dread-%e6%81%90.html">恐喝</a></li>
+<li><a href="../kanji/343-take-measures-%e7%ad%96.html">政策</a></li>
+<li><a href="../kanji/711-intense-%e6%bf%80.html">激励</a></li>
+<li><a href="../kanji/76-eye-%e7%9b%ae.html">目撃者</a></li>
+<li><a href="../kanji/1313-agricultural-breeding-reproduction-%e6%ae%96.html">生殖</a></li>
+<li><a href="../kanji/1380-coincidence-%e5%81%b6.html">配偶者</a></li>
+<li><a href="../kanji/1542-concessions-%e8%ad%b2.html">ゆず＊る</a></li>
+<li><a href="../kanji/1730-onslaught-%e8%a5%b2.html">襲撃</a></li>
+<li><a href="../kanji/1742-fusion-%e8%9e%8d.html">融資</a></li>
+<li><a href="../kanji/657-consider-%e8%80%83.html">考慮</a></li>
+<li><a href="../kanji/416-investigate-%e6%a4%9c.html">検討</a></li>
+<li><a href="../kanji/86-formal-visit-%e8%a8%aa.html">たず*ねる</a></li>
+<li><a href="../kanji/216-to-supply-%e7%b4%8d.html">納得</a></li>
+<li><a href="../kanji/326-yesterday-%e6%98%a8.html">昨 XXX </a></li>
+<li><a href="../kanji/12-below-%e4%b8%8b.html">くだ＊ さい</a></li>
+<li>取り締まる</li>
+<li>戦闘</li>
+<li></li>
+<li>汚職</li>
+<li>覇権</li>
+<li>化す</li>
+<li>拘留する</li>
+<li>拘束する</li>
+<li>花魁</li>
+<li>考慮</li>
+<li>希少な</li>
+<li>発禁</li>
+<li>駆逐</li>
+<li>憤り</li>
+<li>連鎖</li>
+<li>没落</li>
+<li>迫害</li>
+<li>永久に</li>
+<li>火災</li>
+<li>担う</li>
+<li>評論</li>
+<li>稼業</li>
+<li>甚大</li>
+<li>証</li>
+<li>虚偽の</li>
+<li>猥褻</li>
+<li>併わせる</li>
+<li>殖</li>
+<li>華</li>
+<li>墜ちる</li>
+<li>捜</li>
+</ul>
+</div>
+<footer>
+&copy; 2009-2017
+<a href="http://www.hellodamage.com/top/">Hello Damage</a>
+</footer>
+</body>
+
+<!-- Mirrored from www.kanjidamage.com/tags/16 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:38:56 GMT -->
+</html>

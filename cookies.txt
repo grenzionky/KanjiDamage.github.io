@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.kanjidamage.com	TRUE	/	FALSE	1999999999	_kanji_session	BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTBiMTUwN2Y3MzRmODg4NmFkMzYwYTM5YTc2ZDg4M2I0BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUNud2hidU1heUd6OUxlT2pmWUJkVGpZV3BiQlBFbDJaM21EQWtId0p4Rnc9BjsARg%3D%3D--c4f7d54020b4092af447f3550cb94d607fbc9252
+.paypalobjects.com	TRUE	/	FALSE	1999999999	PYPF	CT-1
+

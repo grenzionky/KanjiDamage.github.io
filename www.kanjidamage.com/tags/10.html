@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+
+<!-- Mirrored from www.kanjidamage.com/tags/10 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:38:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta content='text/html;charset=UTF-8' http-equiv='content-type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7003683092","applicationID":"21271","transactionName":"Jg5bQ0EKCA5UQk1CUwISGkRbChM=","queueTime":0,"applicationTime":23,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<title>
+Japanese synonyms, kanji that resemble each other, kanji lookalikes - ILL PAIR
+|
+KANJIDAMAGE
+</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="CnwhbuMayGz9LeOjfYBdTjYWpbBPEl2Z3mDAkHwJxFw=" name="csrf-token" />
+<link href="../assets/application-bd822dcf08a88800b93ec563924bd26c.css" media="all" rel="stylesheet" type="text/css" />
+<script src="../assets/application-425928cbe6be55fe527562b4436651e3.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="../favicon.ico" />
+<meta property="fb:app_id" content="122407024560957"/>
+<meta content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'>
+
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12423647-1']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+          <script type='text/javascript'>
+            var mpq = [];
+            mpq.push(["init", "c9b49675ff5c8dd8c73e0b5c73987bfc"]);
+            (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+          </script>
+<script type='text/javascript'>try {mpq.push(["register", {}]);} catch(err) {}</script></head>
+<body>
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "../../connect.facebook.net/en_US/all.js#xfbml=1&appId=122407024560957";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class='navbar navbar-fixed-top navbar-inverse'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a href="../index.html" class="brand"><img alt="Kanjidamage" class="logo" src="../assets/kanjidamage-69b6c6692a0c83fe7f1b41590e6e5c1a.png" />
+KANJIDAMAGE
+</a><div class='nav-collapse'>
+<ul class='nav'>
+<li><a href="../introduction.html">Intro</a></li>
+<li><a href="../kanji_facts.html">Kanji facts</a></li>
+<li><a href="../howto.html">How to</a></li>
+<li><a href="../tags.html">Tags</a></li>
+<li><a href="../kanji.html">Kanji</a></li>
+<li><a href="../radicals.html">Radicals</a></li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Appendix
+</a>
+<ul class='dropdown-menu'>
+<li><a href="../appendix/onyomikeywords.html">Onyomi</a></li>
+<li><a href="../appendix/illpairs.html">Ill pairs</a></li>
+<li><a href="../appendix/dupes.html">Dupes</a></li>
+<li><a href="../articles.html">Articles</a></li>
+<li><a href="../appendix/longshortvowels.html">Long short vowels</a></li>
+</ul>
+</li>
+<li><a href="../synonyms.html">Synonyms</a></li>
+<li><a href="http://kanjidamage.fr.yuku.com/forums/2/kanjidamage-forums">Forum</a></li>
+</ul>
+<div class='pull-right'>
+<form accept-charset="UTF-8" action="http://www.kanjidamage.com/kanji/search" class="navbar-search pull-right" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input class="search-query" id="q" name="q" placeholder="Search" type="text" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+</div>
+<div class='container'><h1>ILL PAIR</h1>
+<p>Yet another only-in-Japanese type of problem : Synonyms where the kanji look as physically similar as their meanings! 　“Hey, a few foreigners managed to suss out the difference in the meanings of these synonyms. We can’t let that slide. . . why don’t we make them look almost identical too?? That’ll slow ‘em down . . .IN YOUR FACE, FOREIGNERS!!!”</p>
+
+<p>Classic ILL PAIRS ? Here’s a few:
+<br>
+削　(ｗｈｉｔｔｌｅ　ｄｏｗｎ) /消 (ｅｒａｓｅ)
+<br>
+福 (good luck) / 富 ( get rich )
+<br>
+近 (close) /辺 (around here)
+<br>
+王　(king) / 主　(master)
+<br>
+妻 ( wife) / 婦 – (housewife)
+<br>
+Unlike most of these WARNING TAGS, learning ill pairs doesn’t really help you in any way. But it’s so fucked up, I had to make a list of them. I guess you could show the list  to your Japanese teacher and try to get her to apologize personally to you.
+<br>
+<a href="../appendix/illpairs.html">consult the appendix. </a></p>
+
+<h2>Tagged items</h2>
+<ul>
+<li><a href="../kanji/192-small-size-%e5%b0%8f.html">小</a></li>
+<li><a href="../kanji/193-a-little-amount-%e5%b0%91.html">少</a></li>
+<li><a href="../kanji/244-cram-school-%e5%a1%be.html">塾</a></li>
+<li><a href="../kanji/328-near-%e8%bf%91.html">近</a></li>
+<li><a href="../kanji/396-judge-%e5%af%a9.html">審</a></li>
+<li><a href="../kanji/598-beast-%e7%8d%a3.html">獣</a></li>
+<li><a href="../kanji/626-suck-%e5%90%b8.html">吸</a></li>
+<li><a href="../kanji/636-housewife-lady-%e5%a9%a6.html">婦</a></li>
+<li><a href="../kanji/701-blow-%e5%90%b9.html">吹</a></li>
+<li><a href="../kanji/725-demandask-%e6%b1%82.html">求</a></li>
+<li><a href="../kanji/726-rescue-%e6%95%91.html">救</a></li>
+<li><a href="../kanji/738-hot-spring-origin-%e6%ba%90.html">源</a></li>
+<li><a href="../kanji/838-rejoice-%e5%96%9c.html">喜</a></li>
+<li><a href="../kanji/839-stoked-%e5%ac%89.html">嬉</a></li>
+<li><a href="../kanji/878-politeness-%e5%84%80.html">儀</a></li>
+<li><a href="../kanji/952-to-freeze-%e5%87%8d.html">凍</a></li>
+<li><a href="../kanji/976-cylinder-pipe-%e7%ad%92.html">筒</a></li>
+<li><a href="../kanji/1070-take-with-inform-of-%e9%80%a3.html">連</a></li>
+<li><a href="../kanji/1071-carry-luck-%e9%81%8b.html">運</a></li>
+<li><a href="../kanji/1129-government-%e5%ba%9c.html">府</a></li>
+<li><a href="../kanji/1130-metropolitan-government-%e5%ba%81.html">庁</a></li>
+<li><a href="../kanji/1160-bottom-%e5%ba%95.html">底</a></li>
+<li><a href="../kanji/1182-police-%e5%af%9f.html">察</a></li>
+<li><a href="../kanji/1260-store-%e5%b1%8b.html">屋</a></li>
+<li><a href="../kanji/1324-rend-%e7%a0%b4.html">破</a></li>
+<li><a href="../kanji/1386-get-cloudy-%e6%9b%87.html">曇</a></li>
+<li><a href="../kanji/1389-shake-tremble-%e9%9c%87.html">震</a></li>
+<li><a href="../kanji/1449-ship-%e8%88%b9.html">船</a></li>
+<li><a href="../kanji/1500-good-luck-%e7%a6%8f.html">福</a></li>
+<li><a href="../kanji/1511-get-injured-%e8%a2%ab.html">被</a></li>
+<li><a href="../kanji/1514-entrails-%e8%85%b9.html">腹</a></li>
+<li><a href="../kanji/1551-follower-%e4%be%9b.html">供</a></li>
+<li><a href="../kanji/1667-wife-%e5%a6%bb.html">妻</a></li>
+<li><a href="../kanji/114-evening-%e5%a4%95.html">夕</a></li>
+<li><a href="../kanji/117-late-night-%e5%a4%9c.html">夜</a></li>
+<li><a href="../kanji/164-sword-%e5%88%80.html">刀</a></li>
+<li><a href="../kanji/172-blade-%e5%88%83.html">刃</a></li>
+<li><a href="../kanji/184-get-good-at-%e7%86%9f.html">熟</a></li>
+<li><a href="../kanji/198-cool-place-%e6%b6%bc.html">涼</a></li>
+<li><a href="../kanji/287-exceed-go-over-%e8%b6%85.html">超</a></li>
+<li><a href="../kanji/397-big-%e5%a4%a7.html">大</a></li>
+<li><a href="../kanji/413-fat-%e5%a4%aa.html">太</a></li>
+<li><a href="../kanji/425-model-%e6%a8%a1.html">模</a></li>
+<li><a href="../kanji/444-king-%e7%8e%8b.html">王</a></li>
+<li><a href="../kanji/454-mastermainly-%e4%b8%bb.html">主</a></li>
+<li><a href="../kanji/600-whittle-down-%e5%89%8a.html">削</a></li>
+<li><a href="../kanji/601-erase-%e6%b6%88.html">消</a></li>
+<li><a href="../kanji/654-extreme-%e6%a5%b5.html">極</a></li>
+<li><a href="../kanji/711-intense-%e6%bf%80.html">激</a></li>
+<li><a href="../kanji/737-original-high-plain-%e5%8e%9f.html">原</a></li>
+<li><a href="../kanji/747-go-beyond-%e8%b6%8a.html">越</a></li>
+<li><a href="../kanji/773-pitiful-%e5%93%80.html">哀</a></li>
+<li><a href="../kanji/774-declinewane-%e8%a1%b0.html">衰</a></li>
+<li><a href="../kanji/877-righteousness-%e7%be%a9.html">義</a></li>
+<li><a href="../kanji/936-to-suit-%e5%90%88.html">合</a></li>
+<li><a href="../kanji/1007-rumor-%e5%99%82.html">噂</a></li>
+<li><a href="../kanji/1058-car-%e8%bb%8a.html">車</a></li>
+<li><a href="../kanji/1061-ride-a-vehicle-%e4%b9%97.html">乗</a></li>
+<li><a href="../kanji/1097-right-%e5%8f%b3.html">右</a></li>
+<li><a href="../kanji/1098-left-%e5%b7%a6.html">左</a></li>
+<li><a href="../kanji/1159-mr-speculum-radical-%e6%b0%8f.html">氏</a></li>
+<li><a href="../kanji/1162-low-%e4%bd%8e.html">低</a></li>
+<li><a href="../kanji/1165-folk-%e6%b0%91.html">民</a></li>
+<li><a href="../kanji/1220-elephant-phenomenon-%e8%b1%a1.html">象</a></li>
+<li><a href="../kanji/1221-statue-image-%e5%83%8f.html">像</a></li>
+<li><a href="../kanji/1261-room-suffix-%e5%ae%a4.html">室</a></li>
+<li><a href="../kanji/1269-big-meeting-%e4%bc%9a.html">会</a></li>
+<li><a href="../kanji/1448-boat-%e8%88%9f.html">舟</a></li>
+<li><a href="../kanji/1452-tray-basis-%e7%9b%a4.html">盤</a></li>
+<li><a href="../kanji/1455-obscene-%e7%8c%a5.html">猥</a></li>
+<li><a href="../kanji/1503-get-rich-%e5%af%8c.html">富</a></li>
+<li><a href="../kanji/1548-with-%e5%85%b1.html">共</a></li>
+<li><a href="../kanji/1618-tube-%e7%ae%a1.html">管</a></li>
+<li><a href="../kanji/1690-lie-%e5%98%98.html">嘘</a></li>
+<li><a href="../kanji/1139-wide-%e5%ba%83.html">広</a></li>
+<li><a href="../kanji/1140-to-expand-%e6%8b%a1.html">拡</a></li>
+<li><a href="../kanji/534-get-indignant-%e6%86%a4.html">憤</a></li>
+<li><a href="../kanji/535-spew-%e5%99%b4.html">噴</a></li>
+<li><a href="../kanji/78-my-own-%e8%87%aa.html">自</a></li>
+<li><a href="../kanji/1595-ones-own-flesh-%e8%ba%ab.html">身</a></li>
+<li><a href="../kanji/1072-dazzle-%e8%bc%9d.html">輝</a></li>
+<li><a href="../kanji/573-shining-%e5%85%89.html">光</a></li>
+<li><a href="../kanji/851-lean-%e5%82%be.html">傾</a></li>
+<li><a href="../kanji/329-around-herearound-that-time-%e8%be%ba.html">辺</a></li>
+<li><a href="../kanji/1044-doubt-%e7%96%91.html">疑</a></li>
+<li><a href="../kanji/1045-sham-%e6%93%ac.html">擬</a></li>
+<li><a href="../kanji/1136-friction-%e6%91%a9.html">摩</a></li>
+<li><a href="../kanji/1126-to-brush-%e7%a3%a8.html">磨</a></li>
+<li><a href="../kanji/1198-sacrifice-%e7%8a%a0.html">犠</a></li>
+<li><a href="../kanji/1454-fierce-%e7%8c%9b.html">猛</a></li>
+<li><a href="../kanji/1197-sacrificial-victim-%e7%89%b2.html">牲</a></li>
+<li><a href="../kanji/1176-brandish-pretend-%e6%8c%af.html">振</a></li>
+<li><a href="../kanji/642-jump-%e8%ba%8d.html">躍</a></li>
+<li><a href="../kanji/1343-dance-%e8%b8%8a.html">踊</a></li>
+<li><a href="../kanji/580-value-%e4%be%a1.html">価</a></li>
+<li><a href="../kanji/1474-misfortune-%e5%8e%84.html">厄</a></li>
+<li><a href="../kanji/1475-dangerous-%e5%8d%b1.html">危</a></li>
+<li><a href="../kanji/1310-price-or-ranking-%e5%80%a4.html">値</a></li>
+<li><a href="../kanji/1385-cloud-%e9%9b%b2.html">雲</a></li>
+</ul>
+</div>
+<footer>
+&copy; 2009-2017
+<a href="http://www.hellodamage.com/top/">Hello Damage</a>
+</footer>
+</body>
+
+<!-- Mirrored from www.kanjidamage.com/tags/10 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:38:54 GMT -->
+</html>
