@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+
+<!-- Mirrored from www.kanjidamage.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:26:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta content='text/html;charset=UTF-8' http-equiv='content-type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7003683092","applicationID":"21271","transactionName":"Jg5bQ0EKCA5UQk1eXQgEGh9cEQwHQxk=","queueTime":0,"applicationTime":19,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<title>
+Learn Kanji Using Radicals
+|
+KANJIDAMAGE
+</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="CnwhbuMayGz9LeOjfYBdTjYWpbBPEl2Z3mDAkHwJxFw=" name="csrf-token" />
+<link href="assets/application-bd822dcf08a88800b93ec563924bd26c.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/application-425928cbe6be55fe527562b4436651e3.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta property="fb:app_id" content="122407024560957"/>
+<meta content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'>
+
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12423647-1']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+          <script type='text/javascript'>
+            var mpq = [];
+            mpq.push(["init", "c9b49675ff5c8dd8c73e0b5c73987bfc"]);
+            (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+          </script>
+<script type='text/javascript'>try {mpq.push(["register", {}]);} catch(err) {}</script></head>
+<body>
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=122407024560957";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class='navbar navbar-fixed-top navbar-inverse'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a href="index.html" class="brand"><img alt="Kanjidamage" class="logo" src="assets/kanjidamage-69b6c6692a0c83fe7f1b41590e6e5c1a.png" />
+KANJIDAMAGE
+</a><div class='nav-collapse'>
+<ul class='nav'>
+<li><a href="introduction.html">Intro</a></li>
+<li><a href="kanji_facts.html">Kanji facts</a></li>
+<li><a href="howto.html">How to</a></li>
+<li><a href="tags.html">Tags</a></li>
+<li><a href="kanji.html">Kanji</a></li>
+<li><a href="radicals.html">Radicals</a></li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Appendix
+</a>
+<ul class='dropdown-menu'>
+<li><a href="appendix/onyomikeywords.html">Onyomi</a></li>
+<li><a href="appendix/illpairs.html">Ill pairs</a></li>
+<li><a href="appendix/dupes.html">Dupes</a></li>
+<li><a href="articles.html">Articles</a></li>
+<li><a href="appendix/longshortvowels.html">Long short vowels</a></li>
+</ul>
+</li>
+<li><a href="synonyms.html">Synonyms</a></li>
+<li><a href="http://kanjidamage.fr.yuku.com/forums/2/kanjidamage-forums">Forum</a></li>
+</ul>
+<div class='pull-right'>
+<form accept-charset="UTF-8" action="http://www.kanjidamage.com/kanji/search" class="navbar-search pull-right" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input class="search-query" id="q" name="q" placeholder="Search" type="text" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+</div>
+<div class='container'><div class='row'>
+<div class='span12 page-header'>
+<img alt="Top" src="assets/top-91c75975d1afddade0aaa45674142580.jpg" />
+<h2>Welcome to KANJIDAMAGE, where you can learn 1,700 kanji using Yo Mama jokes.</h2>
+</div>
+</div>
+<div class='row'>
+<div class='span8'>
+<h3>
+<span style='color: #ff0000'>NEW!</span>
+KanjiDamage Anki Deck
+</h3>
+<p>
+An official
+<a href='https://ankiweb.net/shared/info/748570187'>KanjiDamage deck</a>
+is now available for
+<a href='http://ankisrs.net/'>Anki</a>
+, a popular flashcard program.
+Many thanks to miwuc, KD user and great coder!
+This KanjiDamage deck contains all of KD's kanji plus stroke order diagrams.
+Please check it out
+<a href='https://ankiweb.net/shared/info/748570187'>here!</a>
+</p>
+<h3>Things we have the others don’t:</h3>
+<ul>
+<li>All words ranked by usefulness. Over 100 bogus JOYO kanji cut!</li>
+<li>Every kanji broken down into its components, math stylezzz.</li>
+<li>Over 800 hints to tell look-a-like kanji apart</li>
+<li>Over 18 ‘tags’ for things like odd spellings, usu. hiragana, formal, rude, etc.</li>
+<li>Over 1,700 mnemonics which include the meaning, radicals, AND onyomi.</li>
+<li>Particles taught WITH the words.</li>
+<li>Nuances of synonyms explained (i.e. 硬い、堅い、and 固い).</li>
+<li>Radicals link to all kanji which include them.</li>
+</ul>
+<h3>Getting started:</h3>
+<ul>
+<li>
+<h5><a href="introduction.html">why most kanji textbooks suck</a></h5>
+</li>
+<li>
+<h5><a href="kanji_facts.html">get the basics on kanji</a></h5>
+</li>
+<li>
+<h5><a href="howto.html">learn how to use Kanji Damage</a></h5>
+</li>
+<li>
+<h5><a href="kanji/1-one-line-radical-%e4%b8%80-2.html">start at the very first kanji</a></h5>
+</li>
+</ul>
+<h3>Improved Search!</h3>
+There is a search box in the menu bar (upper right), and here:
+<p></p>
+<form accept-charset="UTF-8" action="http://www.kanjidamage.com/kanji/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<table>
+<tr>
+<td><input id="q" name="q" type="text" /></td>
+<td>&nbsp;</td>
+<td style='vertical-align: top;'><input name="commit" type="submit" value="Lookup Kanji" /></td>
+</tr>
+</table>
+Previously, you could look up a kanji by searching on the English meaning, or the original kanji.
+You can now search kanji by entering the phonetic transliteration, either onyomi or kunyomi.
+For example, searching on 'sun' will find two kanji which mean 'sun', two with matching kunyomi
+(suna, sunareru), and one with an onyomi of SUN. The search box also accepts kana;
+searching on すな will find すな and すなれる.
+</form>
+
+<table>
+<tr>
+<td>
+<h2>Support&nbsp;us!</h2>
+</td>
+<td style='width: 30%'></td>
+<td>
+<span class="fb-like" data-href="http://www.facebook.com/kanjidamage" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-colorscheme="dark"></span>
+</td>
+</tr>
+</table>
+<p>
+Please help us improve the accuracy, site design, and Yo Mama jokes
+<a href='http://kanjidamage.fr.yuku.com/forums/2/kanjidamage-forums'>here.</a>
+</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="../www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" src="https://ak1s.abmr.net/is/www.paypalobjects.com?U=/en_US/i/scr/pixel.gif&amp;V=3-L1WzjTy7tYe2zYUjNm2SO9YqTku2i0VR%2fZCmD+N6OKhGOwRuRNcWi9xJUZmn0B3k&amp;I=6AD5ABBB0710110&amp;D=paypalobjects.com&amp;01AD=1&amp;" width="1" height="1">
+</form>
+
+<form action="http://mobalean.us2.list-manage1.com/subscribe/post?u=d52315a0a5beaeefbaaa6dfcb&amp;id=3c955226f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank">
+    <label for="mce-EMAIL">Get the latest Kanji Damage news!</label>
+    <input type="email" value="" name="EMAIL" class="input-medium" id="mce-EMAIL" placeholder="email address" required>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</form>
+
+</div>
+<div class='span4'>
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- kanjiresponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3566358308304401"
+     data-ad-slot="3615792576"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
+<center><div class="fb-like-box" data-href="https://www.facebook.com/pages/KANJIDAMAGE/344413899661" data-width="275" data-show-faces="true" data-border-color="white" data-stream="false" data-header="false"></div></center>
+
+</div>
+</div>
+</div>
+<footer>
+&copy; 2009-2017
+<a href="http://www.hellodamage.com/top/">Hello Damage</a>
+</footer>
+</body>
+
+<!-- Mirrored from www.kanjidamage.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2017 01:26:32 GMT -->
+</html>
